@@ -1,0 +1,6 @@
+target
+.idea
+/target/
+.vscode
+/allure-report
+/allure-results
