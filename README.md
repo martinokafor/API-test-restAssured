@@ -24,8 +24,3 @@ Install the following:
 - Run the command ``` allure open ``` to open the allure report on the default browser
   ![screenshot](images/allure_report.png)    
 
-### Conclusion
-
-1 **Bad request error case:**  The system returns a 500 status code (internal server error) when a wrong input parameter value (null) is provided for example in the GET api/users/{id} endpoint instead of a 400 status code (bad request). Probably the backend input validation and error handling can be improved so that the system returns the appropriate status error code in such scenario    
-2 **Note:** Finally not all test scenarios were covered by the implementation but rather the major few testcases
-
